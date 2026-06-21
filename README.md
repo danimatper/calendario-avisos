@@ -77,7 +77,7 @@ CRON_SECRET=pon_aqui_una_cadena_aleatoria_larga
 4. En **Environment Variables**, añade todas las variables del paso 3
 5. Despliega — Vercel detectará automáticamente que es Next.js
 
-El cron job (`vercel.json`) ya está configurado para ejecutarse **cada hora** y comprobar si hay avisos pendientes.
+El cron job (`vercel.json`) ya está configurado para ejecutarse **una vez al día** y comprobar si hay avisos pendientes.
 
 ---
 
@@ -112,7 +112,7 @@ lib/
   reminders.ts           <- Lógica de cuándo disparar cada aviso
   categories.ts          <- Categorías y colores
 supabase-schema.sql      <- SQL: tabla + políticas RLS
-vercel.json              <- Configuración del cron (cada hora)
+vercel.json              <- Configuración del cron (diario)
 tests/                   <- Tests con Vitest
 ```
 
