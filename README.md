@@ -2,6 +2,17 @@
 
 Aplicación web para gestionar fechas de trámites importantes y recibir avisos automáticos antes de que venzan, enviados por Telegram. Acceso protegido con autenticación de usuarios.
 
+## 🔗 Demo en vivo
+
+**https://calendario-avisos.vercel.app**
+
+Cuenta de prueba para entrar:
+
+- **Usuario:** `demo@calendario.app`
+- **Contraseña:** `demo1234`
+
+> Las notificaciones por Telegram forman parte del despliegue real y no son visibles en la demo, que muestra la interfaz y la gestión de eventos.
+
 ## El problema que resuelve
 
 En el día a día es fácil que se pasen fechas de trámites importantes (renovaciones, vencimientos de contratos, plazos administrativos). Esta aplicación centraliza esas fechas en un calendario y, mediante un cron, envía un recordatorio automático con la antelación que elijas, para no depender de la memoria ni de revisar el calendario manualmente.
